@@ -7,7 +7,7 @@ LDIR =../lib
 
 LIBS=-lm
 
-_DEPS = romano.h
+_DEPS = romano.hpp
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
 _OBJ = romano.o main.o 
